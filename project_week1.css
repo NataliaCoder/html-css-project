@@ -2,3 +2,25 @@ article:first-child {
     background: lightgrey;
     margin-bottom: 50px;
 }
+.site-header__title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(218, 218, 58);
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    background: rgb(245, 242, 242);
+}
+  .message__title {
+    font-size: 30px;       
+}
+.site-footer {
+        font-size: 15px;
+    }
+.message__content {
+    text-align: justify;
+}
