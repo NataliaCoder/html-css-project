@@ -8,12 +8,15 @@ article:first-child {
     text-align: center;
     color: rgb(218, 218, 58);
 }
-body {
+.site-wrapper {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
     background: rgb(245, 242, 242);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
   .message__title {
     font-size: 30px;       
@@ -23,4 +26,8 @@ body {
     }
 .message__content {
     text-align: justify;
+}
+.message {
+    flex: 1 1 33.3%;
+    
 }
