@@ -12,22 +12,48 @@ article:first-child {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.5;
-    text-align: center;
+   /* text-align: center;*/
     background: rgb(245, 242, 242);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
   .message__title {
     font-size: 30px;       
 }
 .site-footer {
         font-size: 15px;
-    }
+        text-align: center;   
+     }
 .message__content {
-    text-align: justify;
+    /*text-align: justify;*/
+}
+
+.articles-sidebar {
+    display: flex;
+    flex-direction: row;
+}
+main {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
 }
 .message {
-    flex: 1 1 33.3%;
-    
+    width: 33%;
 }
+.sidebar {
+        width: 25%;
+    }
+.image {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
